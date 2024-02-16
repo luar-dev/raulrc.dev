@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
+
+/*
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 1000
+// <width>: Use a value from 75 to 125
+// <lowercase height>: Use a value from 440 to 540
+
+.nunito-sans-<uniquifier> {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" <width>,
+    "YTLC" <lowercase height>;
+}
+*/
+
+:root {
+  --base-theme: #6DF2CC;
+  --base-theme: #13F2A1;
+  --base-theme: #BABF24;
+  --base-theme: #404040;
+  --base-theme: #0D0D0D;
+}
