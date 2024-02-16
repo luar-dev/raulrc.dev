@@ -18,9 +18,55 @@
 */
 
 :root {
-  --base-theme: #6DF2CC;
-  --base-theme: #13F2A1;
-  --base-theme: #BABF24;
-  --base-theme: #404040;
-  --base-theme: #0D0D0D;
+  --base-theme-green: #6DF2CC;
+  --base-theme-teal: #13F2A1;
+  --base-theme-yellow: #BABF24;
+  --base-theme-gray: #404040;
+  --base-theme-black: #0D0D0D;
+  --base-theme-white90: rgb(255 255 255 / 0.9);
+  --base-theme-white70: rgb(255 255 255 / 0.7);
+  --base-theme-white20: rgb(255 255 255 / 0.2);
+
+  --text-size: 18px;
+  --font-family: "Nunito Sans", sans-serif;
+  --h1-size: 48px;
+  --h2-size: 32px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--base-theme-black);
+  color: var(--base-theme-white90);
+  font-size: var(--text-size);
+  user-select: none;
+}
+h1 {
+  color: var(--base-theme-teal);
+  font-size: var(--h1-size);
+}
+h2 {
+  font-size: var(--h2-size);
+}
+a {
+  color: var(--base-theme-yellow);
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  line-height: 1.6;
 }
